@@ -1,0 +1,35 @@
+#include <iostream>
+using namespace std;
+
+float bmi();
+int weight();
+float WEIGHT;
+int height();
+float HEIGHT;
+
+int main()
+{
+int weight();
+{
+cout<<"Enter your weight: (in lbs): "<< " " <<"\n";
+cin>>WEIGHT;
+}
+
+int height();
+{
+
+cout<<"Enter your height (in inches): "<< " " <<"\n";
+cin>>HEIGHT;
+HEIGHT=HEIGHT*HEIGHT;
+
+float bmi= 703*WEIGHT/HEIGHT;
+cout<<"Your Body Mass Index is " << bmi<< "\n\n";
+cout<< "*****************************\n";
+}
+cout<<"BMI Catergories\n\n";
+cout<< "*****************************\n";
+cout<< "Underweight = < 18.5\n\n";
+cout<< "Normal weight = 18.5 - 24.9\n\n";
+cout<< "Overweight = 25 - 29.9\n\n";
+cout<< "Obesity = BMI 30 or greater\n\n";
+}
